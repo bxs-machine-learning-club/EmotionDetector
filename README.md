@@ -1,8 +1,11 @@
 # EmotionDetector
-Credit to Github user @Omar178 for this demo.
 
+### Instructions to Run It
+- Install python if you have not already
+- git clone [https://github.com/bxs-machine-learning-club/October-2019-Emotion-Detector.git]
+- Install [opencv](https://pypi.org/project/opencv-python/), [Pillow](https://pypi.org/project/Pillow/), and any other - necessary libraries using pip
+- Run emotions.py: "python emotions.py"
+
+### Description
 An emotion detector to demo for the annual club fair at Bronx Science.
-
-To run it, clone the file onto your local machine, and run the emotions.py file.
-
-Note, this is a python application, so you will need to install python before running it.
+Credit to Github user @Omar178 for this demo.
