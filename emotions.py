@@ -39,8 +39,10 @@ video_capture = cv2.VideoCapture(0)
 cap = None
 if (USE_WEBCAM == True):
     cap = cv2.VideoCapture(0) # Webcam source
+    print("Using webcam source")
 else:
     cap = cv2.VideoCapture('./demo/dinner.mp4') # Video file source
+    print("Unable to use webcam; using demo")
 
 def rescale_frame(frame, percent=150):
     width = int(frame.shape[1] * percent/ 100)
